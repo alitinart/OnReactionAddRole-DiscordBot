@@ -26,3 +26,5 @@ async def on_raw_reaction_add(payload):
         await channel.send(embed=emb)
         await user.remove_roles(removeRole, reason=None,atomic=True)
         await user.send("Welcome to the Sharkz Server! Hope you have a good time!")
+        
+bot.run("TOKEN HERE")
